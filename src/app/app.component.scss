@@ -1,0 +1,11 @@
+:host zxing-scanner::ng-deep video {
+  max-height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
